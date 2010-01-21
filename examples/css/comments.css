@@ -1,0 +1,60 @@
+#comments {
+	display: none;
+	height:480px;
+}
+
+#comments .page {
+  position:absolute;
+  width:836px;
+}
+
+#comments span:first-child {
+  position:absolute;
+	left:260px;
+}
+
+.comment {
+  margin-bottom:20px;
+  overflow:auto;
+}
+
+.comment a img {
+  width:100px;
+  height:100px;
+  float:left;
+}
+
+.comment > div {
+  width:712px;
+	float:left;
+  border:1px solid #CCCCCC;
+  padding:4px 8px 8px 8px;
+	margin-left:5px;
+}
+
+.comment > div > div {
+  overflow:auto;
+  margin-bottom:15px;
+}
+
+.comment div > p {
+	clear:left;
+}
+
+.comment > div > div a:first-child {
+  float:left;
+  padding-right:5px;
+}
+
+.comment > div > div > span {
+  float:left;
+}
+
+.comment div a.commentreport, .comment > div > div > span.reported {
+  font-size:12px;
+	float:right;
+}
+
+#comment_items {
+	display: none;
+}

@@ -1,0 +1,29 @@
+.about_page h2 {
+	padding-top: 0;
+	padding-bottom: 5px;
+}
+
+.about_page .col1 {
+	float: left;
+	margin-right: 4%;
+}
+
+.about_page .col2 {
+	float: right;
+}
+
+.about_page .col1, .about_page .col2 {
+	float: left;
+	height: 590px;
+	width: 48%;
+	overflow: hidden;
+}
+
+.about_page .col1 h2:first-child, .about_page .col2 h2:first-child {
+	padding-top: 0;
+}
+
+.about_page p {
+	/*line-height: 13px;*/
+	margin-bottom: 15px;
+}

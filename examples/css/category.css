@@ -1,0 +1,77 @@
+.category {
+  position:relative;
+  bottom:5px;
+	font-size:12px;
+	overflow:hidden;
+}
+
+.category > div:first-child, #arrowleft, #arrowright, .pagecount {
+  float:left;
+}
+
+#arrowleft a, #arrowright a, #arrowleft, #arrowright {
+  background-image: url(http://upapi.com/OWj14doU.gif);
+  cursor: pointer;
+  width: 16px;
+  height: 13px;
+  float:left;
+}
+
+#arrowleft, #arrowright {
+  margin-top:1px; 
+}
+
+#arrowleft, #arrowleft a {
+  background-position: 0 0;
+}
+
+#arrowleft:hover, #arrowleft a:hover {
+  background-position: 0 13px;
+}
+
+#arrowright, #arrowright a {
+  background-position: 16px 0px;
+}
+
+#arrowright:hover, #arrowright a:hover {
+  background-position: 16px 13px;
+}
+
+.pagecount {
+	padding:0 3px;
+}
+
+a.linkpages{
+  width:16px;
+  height:13px;
+  overflow:hidden;
+  margin-top: 1px;
+}
+
+a.linkpages:hover img{
+  margin-top: -13px;
+}
+
+#pageright {
+	float:right;
+	height:13px;
+}
+
+#pageright > a:first-child {
+  float:left;
+  position:relative;
+  right:14px;
+}
+
+#contactpageright {
+  float:right;
+	position:relative;
+	right:18px;
+}
+
+.category > div:first-child > span {
+  text-transform:capitalize; 
+}
+
+
+

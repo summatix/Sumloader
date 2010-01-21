@@ -1,0 +1,108 @@
+.sf-menu, .sf-menu * {
+	list-style:		none;
+}
+.sf-menu ul {
+	position:		absolute;
+	width:			10em; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+
+/*** DEMO SKIN ***/
+.sf-menu {
+	float:			left;
+	margin-left: 20px;
+}
+.sf-menu a {
+	padding: 		2px;
+	text-decoration:none;
+}
+.sf-menu li li {
+	background:		#4690D6;
+}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:hover {
+	background:		#4690D6;
+	outline:		0;
+}
+.sf-menu li li:hover, .sf-menu li li a:hover {
+	background: #333;
+}
+.sf-menu li li a {
+	padding: 5px;
+}
+.sf-menu > li {
+	margin-right: 20px;
+	padding: 2px 3px 1px;
+	height: 21px;
+}
+
+.sf-menu > li > ul {
+	margin-top: 3px;
+}
+
+#admin_bar {
+	background: #333333 url(http://upapi.com/5hrIxP99.gif);
+	border-bottom: 1px solid #000;
+	color: #EEE;
+	height: 24px;
+	min-width: 998px;
+	position: relative;
+	width: 100%;
+	z-index: 9000;
+}
+
+#admin_bar a {
+	color: #FFF;
+	font-family: "Lucida Grande",Verdana,sans-serif;
+	font-size: 80%;
+}
+
+#admin_bar > a {
+	float: right;
+	margin-right: 10px;
+	background: transparent url(http://upapi.com/ddIObqGh.gif) no-repeat scroll right top;
+	height: 20px;
+	margin: 3px 5px 0 0;
+	padding: 0 21px 0 0;
+}
+
+#admin_bar > a:hover {
+	background-position: right -21px;
+	text-decoration: underline;
+}

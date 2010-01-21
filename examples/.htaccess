@@ -1,0 +1,10 @@
+RewriteEngine on
+Options +FollowSymlinks
+
+#Combine JavaScript and CSS files
+RewriteRule ^css/min/(.*\.css) /__combine.php?type=css&files=$1&min=1
+RewriteRule ^scripts/min/(.*\.js) /__combine.php?type=js&files=$1&min=1
+RewriteRule ^css/(.*\.css) /__combine.php?type=css&files=$1
+RewriteRule ^scripts/(.*\.js) /__combine.php?type=js&files=$1
+
+ErrorDocument 404 /404.html

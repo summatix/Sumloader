@@ -1,0 +1,132 @@
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, p, pre, form, fieldset, table, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color:#808080;
+	outline:none;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#CCCCCC;
+}
+
+a:active {
+	color:#1A1A1A;
+}
+
+input[type="submit"], input[type="button"] {
+	background:#FFFFFF;
+}
+
+input, textarea {
+	border:#CCCCCC 1px solid;
+	padding:0;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:13px;
+}
+
+input:hover, textarea:hover {
+	border:#808080 1px solid;
+}
+
+input:focus, textarea:focus {
+	border:#1A1A1A 1px solid;
+}
+
+img {
+	border: 0px none;
+	outline:none;
+}
+
+#maindiv {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:13px;
+	color:#1A1A1A;
+	margin: 0 auto 0 auto;
+	width:1000px;
+	overflow:hidden;
+	cursor:default;	
+	background:url(http://upapi.com/LUsDtmgc.gif) no-repeat scroll 806px 15px;
+}
+
+#holder {
+	width: 836px;
+	margin: 44px auto 19px auto;
+	padding:0 10px;
+	border: solid 1px #CCCCCC;
+	overflow:hidden;
+	position:relative;
+	height: 627px;
+}
+
+#animate_holder,.animate_holder {
+	overflow-x:hidden; 
+	position:relative;
+}
+
+#rowscontent, #maintenance, #errorpage, .rowscontent {
+	height:604px;
+	width:auto;
+	position:relative;
+}
+
+#overlay {
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 150;
+}
+
+#loadscreen {
+	width:1000px;
+	margin:-730px auto 0 auto;
+}
+
+#loadscreen div {
+	margin: 37px auto 0; 
+}
+
+#loadscreen img {
+	height:16px;
+	width:16px;
+	z-index:151;
+	top:300px;
+	left:50%;
+	position:absolute;
+}
+
+#rowscontent.contact_page, #rowscontent.about_page {
+	padding-top: 8px;
+}
+
+.contact_page h1, .about_page h1 {
+	display: none;
+}
+
+p {
+	text-align: justify;
+}
+
+address {
+	font-style: normal;
+}
+
+.right {
+	float: right;
+}
+
+.category .right {
+	margin-right: 20px;
+}
+
+.contact_page h2, .about_page h2 {
+	font-size: 13px;
+	font-weight: normal;
+	padding-bottom: 12px;
+	text-transform: uppercase;
+}

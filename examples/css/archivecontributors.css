@@ -1,0 +1,81 @@
+#contributor_page	{
+  height:604px;
+}
+
+#contributor_page > div	{
+  position:absolute; 
+  width:836px;
+}
+
+.conrows {
+ padding:10px 0;
+ overflow:auto;
+}
+
+.avatar {
+  float:left;
+  width:100px;
+  height:100px;
+}
+
+.nametype {
+	float:left;
+	padding-left:15px;
+  margin-top:-2px;
+}
+
+.nametypenothumbnail {
+	float:left;
+	padding-left:150px;
+}
+
+.nametype h4, .nametypenothumbnail h4 {
+	font-weight:bold;
+	font-size:13px;
+}
+
+.nametype span, .nametypenothumbnail span {
+	padding-right:5px;
+}
+
+.nametype p a, .categorycap, .nametypenothumbnail p a {
+  text-transform:capitalize;
+}
+
+.viewconsite {
+	float:right;
+}
+
+.viewconsite a {
+  display:block;
+  text-align:right;
+}
+
+.condesc, .thumbdesc {
+  float:left;
+	padding:10px 0 5px 15px;
+	text-align:justify;
+}
+
+.condesc {
+	width:717px;
+}
+
+.thumbdesc {
+	width:682px;
+}
+
+.archiverows {
+  padding:10px 0;
+  overflow:auto;
+}
+
+.thumbcon {
+  float:left;
+  width:135px;
+  height:100px;
+}
+
+.nametype h4 a {
+  color: #262626;
+}
